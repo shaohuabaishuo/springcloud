@@ -12,6 +12,7 @@
         <module name="eurekserver" />
         <module name="servicefeign" />
         <module name="serviceribbon" />
+        <module name="serviceturbine" />
         <module name="servicezuul" />
       </profile>
     </annotationProcessing>
@@ -21,6 +22,7 @@
       <module name="eurekserver" target="1.8" />
       <module name="servicefeign" target="1.8" />
       <module name="serviceribbon" target="1.8" />
+      <module name="serviceturbine" target="1.8" />
       <module name="servicezuul" target="1.8" />
       <module name="springcloud" target="1.8" />
     </bytecodeTargetLevel>

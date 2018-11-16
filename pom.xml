@@ -12,12 +12,13 @@
     <description>Demo project for Spring Boot</description>
 
     <modules>
-        <module>eurekserver</module>
-        <module>eurekaclient</module>
-        <module>eurekaclient_1</module>
-        <module>serviceribbon</module>
-        <module>servicefeign</module>
-        <module>servicezuul</module>
+        <module>eurekserver</module>  <!-- 注册中心 -->
+        <module>eurekaclient</module> <!-- 生产者 -->
+        <module>eurekaclient_1</module> <!-- 生产者 -->
+        <module>serviceribbon</module> <!-- 消费者 -->
+        <module>servicefeign</module> <!-- 消费者 -->
+        <module>servicezuul</module>  <!-- 路由网关 -->
+        <module>serviceturbine</module> <!-- 断路器聚合监控下· -->
     </modules>
 
     <parent>
